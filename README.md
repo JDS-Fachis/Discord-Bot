@@ -25,4 +25,4 @@
 <br>
 
 ---
-> **Disclaimer: Work in progress**
+> **Disclaimer: Work in progress - please dont judge**
