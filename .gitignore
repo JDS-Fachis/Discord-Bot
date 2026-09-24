@@ -1,0 +1,14 @@
+# Maven-Build
+target/
+
+# IDE-Dateien
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Geheimnisse
+.env
+config.properties

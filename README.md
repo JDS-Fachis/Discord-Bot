@@ -8,8 +8,14 @@
 
 - Konventionen
   - Namen
-  - Ordner- Projektstruktur
+  - Ordner- Projektstruktur ([System Design](https://www.geeksforgeeks.org/system-design/getting-started-with-system-design/))
+  - GitHub Branch Management
+  - Wiki.js/Docmost -> Klassenwiki und Knowledgebase
+  - LDAP
+  - Dashboard / Blackboard
+  - Link Sammlung (-> Wiki/Knowledgebase)
 - etc...
+
 ---
 ### Ideenliste:
 
@@ -29,3 +35,4 @@
 
 ---
 ### Geile Sau
+### ;D
