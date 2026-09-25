@@ -10,10 +10,6 @@
   - Namen
   - Ordner- Projektstruktur ([System Design](https://www.geeksforgeeks.org/system-design/getting-started-with-system-design/))
   - GitHub Branch Management
-  - Wiki.js/Docmost -> Klassenwiki und Knowledgebase
-  - LDAP
-  - Dashboard / Blackboard
-  - Link Sammlung (-> Wiki/Knowledgebase)
 - etc...
 
 ---
@@ -24,6 +20,9 @@
 | Java Discord Bot | Ein Java Discord Bot für den  Klassenserver um Java zu lernen | idk |
 | Nextcloud | Eine gemeinsame Cloud für Unterrichtsmaterial und Zusammenfassungen für Klassenarbeiten | still dont know |
 | Interactive Skill Tree | Ein Skill Tree als Web-App. Jeder kann Themen und Bereiche (aus dem Lehrplan und weiteres) einsehen, konfigurieren, ausklappen und den eigenen "Skill- und Knowledge-Stand" bewerten | kinda banger |
+| Wiki.js/Docmost | Eine Wiki und Knowledgebase zum Nachschlagen und für Linksammlungen | Nützlich undso |
+| LDAP | Universale Account Verwaltung und Einbindung ins Dashboard, Wiki.js, Nextcloud etc. | Wild |
+| Dashboard/Blackboard | dient zur Übersicht | absolutes Vibecoding Projekt |
 
 ---
 ### Useful Links:

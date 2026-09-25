@@ -9,8 +9,10 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 
 public class Brain extends ListenerAdapter {
 
+	final String commandPrefix = "!";
+	
     public static void main(String[] args) {
-        JDABuilder.createDefault(System.getenv("Fachis_Bot_Token"))
+        JDABuilder.createDefault(System.getenv("DISCORD_TOKEN"))
                 .enableIntents(GatewayIntent.MESSAGE_CONTENT)
                 .setStatus(OnlineStatus.ONLINE)
                 .setActivity(Activity.watching("you"))
@@ -24,21 +26,12 @@ public class Brain extends ListenerAdapter {
 
         String text = event.getMessage().getContentRaw();
 
-        if (text.equals("!hallo")) {
-            event.getChannel().sendMessage("Hallo!").queue();
+        if (text.equals(commandPrefix + "status")) {
+            event.getChannel().sendMessage("Bot - Setup Phase").queue();
         }
-
-        if (text.equals("!dnd")) {
-            event.getJDA().getPresence().setStatus(OnlineStatus.DO_NOT_DISTURB);
-        }
-
-        if (text.equals("!online")) {
-            event.getJDA().getPresence().setStatus(OnlineStatus.ONLINE);
-        }
-
-        if (text.startsWith("!spielt ")) {
-            String neuerText = text.substring(8);
-            event.getJDA().getPresence().setActivity(Activity.playing(neuerText));
+        
+        if (text.equals(commandPrefix + "franzosen")) {
+            event.getChannel().sendMessage("Grrr").queue();
         }
     }
 }
